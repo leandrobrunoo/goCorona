@@ -95,7 +95,7 @@ header {
   justify-content: space-between;
 
   background: var(--base-background-primary);
-  padding: 3.7rem 7.3rem 0 7.3rem;
+  padding: 1.7rem 7.3rem 0 7.3rem;
 }
 
 header ul {
@@ -131,7 +131,7 @@ header a img {
 section.home {
   display: grid;
   grid-template-columns: 49rem 54.7rem;
-  grid-template-rows: 1fr 1fr;
+  grid-template-rows: 35rem auto;
   grid-template-areas:
     'content image'
     'footer footer';
@@ -155,7 +155,7 @@ section.home {
   align-items: center;
   justify-content: center;
 
-  margin-top: 7rem;
+  margin-top: 10.5rem;
 }
 
 .home .footer {
@@ -181,8 +181,6 @@ section.home {
   font-size: 1.3rem;
 
   color: #b0b0b0;
-
-  margin-bottom: 0.5rem;
 }
 
 .home .footer .description p {
